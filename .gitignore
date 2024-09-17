@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+venv
+*.py[cod]
+*$py.class
+mlruns/
+outputs/
+data/test/
+lightning_logs/
+
+# # Temporary data
+/checkpoints
+/work_dirs
+/.vector_cache
+._*
+auxiliary
+pdfs/
+
+build/
+data_local/
+Moment_Retrieval.egg-info/
+*.so
+todo
+notebooks/
+*~
+*.pyc
+/.idea
+.pytest_cache
+**/__pycache__
+.ipynb_checkpoints
+.env
+*.pt
+**.pth
+*.pts
+**.ckpt
+*.dat
+.vscode
+**.onnx
+**.mkv
+**.mp4
+**.trt
+**.DS_Store
+*.csv
+data/**
+logs
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+src/metrics/test.py
+
+# local default copy
+/configs/local/my_default.yaml
