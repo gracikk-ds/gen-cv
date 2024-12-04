@@ -43,6 +43,7 @@ notebooks/
 *.csv
 data/**
 logs
+runs/
 
 # mypy
 .mypy_cache/
