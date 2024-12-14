@@ -1,0 +1,26 @@
+# @package _global_
+
+# default configuration
+defaults:
+  - paths: local
+  - data: vae
+  - optimizer: default
+  - losses: vae
+  - model: vae
+  - hydra: default
+  - experiment: null
+  - _self_
+  - hparams_search: null
+  - local: null
+
+project_name: "GenerativeModels"
+task_name: "exp_1_vae"
+description: "exp_1_vae"
+is_local_run: True
+dotenv_path: ".env"
+device: "cuda"
+tags: ["exp_1_vae"]
+test: True
+hyper_search: False
+seed: 40
+optimized_metric: "mse"

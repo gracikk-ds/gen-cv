@@ -1,0 +1,8 @@
+model:
+  _target_: src.models.tiny_vae.TinyVAE
+  tmp_ch: 6
+  latent_dim: 128
+  input_size: 64
+  num_blocks: 2
+
+model_type: "vae"
